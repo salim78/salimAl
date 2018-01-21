@@ -17,7 +17,8 @@ public class App
 	public static void main(String[] args) {
 		
 		App app = new App();
-		System.out.println("la valeur est "+app.somme(3,12) );
+		System.out.println("la valeur egale a: "+app.somme(3,12) );
+		
 	}
 	
 	
