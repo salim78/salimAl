@@ -10,8 +10,7 @@ deploy:
   provider: heroku
   api_key:
     secure: 6302276d-3cdb-4696-a0bf-dcb8c59a3adb
-  app: salimAl
-  
+  app: boiling-wave-91409  
 
 branches:
   only:
