@@ -1,7 +1,5 @@
 language: java
 
-iuregfpireugfpireu
-
 script:
 - mvn compile
 - mvn test
