@@ -1,10 +1,15 @@
-sudo: false
 language: java
 
-deploy:
-  provider: heroku
-  api_key:
-    secure: 24eb96d3-4afd-46a8-a1a0-8b7f7c6e4800
-    app: salimAl
-    
+script:
+- mvn compile
+- mvn test
+- mvn package
+- mvn verify
+
+branches:
+  only:
+    - master
+
+
+
 
