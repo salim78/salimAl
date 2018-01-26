@@ -18,7 +18,6 @@ public class App
 		
 		App app = new App();
 		System.out.println("la valeur egale a: "+app.somme(3,12) );
-		ff
 		
 	}
 	
