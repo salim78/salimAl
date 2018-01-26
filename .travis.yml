@@ -11,7 +11,8 @@ deploy:
   api_key:
     secure: 6302276d-3cdb-4696-a0bf-dcb8c59a3adb
   app: docs-travis-ci-com
-
+  edge:
+    branch: heroku
 
 branches:
   only:
