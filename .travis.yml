@@ -6,6 +6,11 @@ script:
 - mvn package
 - mvn verify
 
+deploy:
+  provider: heroku
+  api_key:
+    secure:  a109c6fc-e510-459e-a421-7d26b9781a64
+
 branches:
   only:
     - master
