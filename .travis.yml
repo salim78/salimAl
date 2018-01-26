@@ -10,7 +10,7 @@ deploy:
   provider: heroku
   api_key:
     secure: 6302276d-3cdb-4696-a0bf-dcb8c59a3adb
-  app: docs-travis-ci-com
+  app: salimAl
   edge:
     branch: heroku
 
